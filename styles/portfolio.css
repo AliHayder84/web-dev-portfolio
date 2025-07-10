@@ -11,6 +11,8 @@
 /* shared style */
 .text-primary{color: #FD6E0A;}
 
+.secondary-background{background-color:#fff8f3 ;}
+
 
 .dark-2{color: #474747;}
 
@@ -23,6 +25,17 @@ font-size: 20px;
 border: none;
 border-radius:5px;
 padding: 18px 35px;}
+
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
 
 /* for header image */
 
@@ -80,5 +93,24 @@ font-weight:700px;
 font-weight: 400;}
 .banner-profile-pic{max-width: 584px;
 height:676px;}
+
+/* main-styles */
+.main{max-width: 1140px;
+margin: 0 auto;}
+
+
+/* about-styles */
+.about{border-radius: 10px;
+padding: 130px 150px;
+/* text majhkhane ache tai tex-align center diyechi */
+text-align: center;
+/* uporer heading er shathe about er ekta gap thakar jonno margin top dilam */
+margin-top: 130px;}
+
+.about-items{display: flex;
+justify-content:space-around;}
+
+.item-description{font-weight: bold;}
+
 
 
