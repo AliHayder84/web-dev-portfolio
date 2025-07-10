@@ -1,0 +1,84 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+
+/* shared style */
+.text-primary{color: #FD6E0A;}
+
+
+.dark-2{color: #474747;}
+
+.dark-3{color:#757575;}
+
+.btn-primary{background-color:#FD6E0A;
+color: white;
+font-weight: bold;
+font-size: 20px;
+border: none;
+border-radius:5px;
+padding: 18px 35px;}
+
+/* for header image */
+
+.header{background-image:url('../images/developer.png'),url('../images/header_bg.png') ;
+background-repeat:no-repeat;
+background-position: top left,bottom right;}
+
+
+/* nav styles */
+
+nav{display: flex;
+align-items: center;
+/* duto child er majhkhane space create korar jnno justify content er space between use hobe} */
+justify-content:space-between;
+margin: 0px 100px;}
+
+
+nav ul{display: flex;
+align-items: center;}
+
+
+/* ekhane ami diyechi nav er vetore h3 tag er font weight ar font size */
+.nav-title{
+    font-weight:bolder;
+font-size: 45px;}
+
+/* eta list er dot shoranor jnno */
+nav li{
+    list-style:none;
+margin-right:51px;}
+
+/* to remove anchor tag underline */
+nav li a{
+    text-decoration: none;
+font-size: 20px;}
+
+/* banner styles */
+
+.banner{display: flex;
+justify-content: space-between;}
+
+.banner-content{width:585px 360px;
+margin:0 38px 0 230px;}
+
+.banner-heading{ font-size: 45px;
+font-weight:700px;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.banner-description{font-size: 18px;
+font-weight: 400;}
+.banner-profile-pic{max-width: 584px;
+height:676px;}
+
+
