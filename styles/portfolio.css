@@ -154,7 +154,47 @@ gap: 24px;}
 
 .cv-btn{text-align: center;
 margin-top: 50px;}
+.resume-section-title{text-align: center;}
 
 
+/* footer style */
+footer{display: flex;
+gap: 100px;
+
+padding: 130px 230px;}
+
+.footer-column{width:50%;}
+
+footer input [type="text"] 
+    height:64px;
+    border-radius:5px;
+    background-color:white;
+    display:block;
+    width: 80%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+footer input [type="email"]{
+    height:64px;
+    border-radius:5px;
+    background-color:white;
+    display:block;
+    width: 80%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+footer textarea{
+    height:64px;
+    border-radius:5px;
+    background-color:white;
+    display:block;
+    width: 80%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
 
 
